@@ -1,0 +1,21 @@
+AddDefaultCharSet UTF-8
+
+RewriteEngine On
+RewriteBase /cp
+
+RewriteCond %{HTTP_HOST} (.*)
+RewriteCond %{REQUEST_METHOD} !^POST$
+RewriteCond %{REQUEST_URI} /$ [NC]
+RewriteCond %{QUERY_STRING} ^$ [NC]
+RewriteRule (.+)/$ /cp/$1 [L,QSA,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond $1 !^\.(web|css|js|png|jpg|gif|woff|eot|svg|ttf)
+RewriteRule ^(.*)$ /cp/index.php [L,QSA]
+
+# php_value upload_max_filesize	120M
+# php_value post_max_size			120M
+# php_value set_time_limit		0
+# php_value max_execution_time	0

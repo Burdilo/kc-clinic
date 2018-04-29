@@ -1,0 +1,22 @@
+.notify {
+    width: 320px;
+    background: $c-royal-blue;
+    padding: 15px 0;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 10000;
+    text-align: center;
+    font-size: 1.4rem;
+    color: $c-white;
+    border-bottom: 3px solid #3d62be;
+    box-shadow: 0 3px 14px rgba(0,0,0,.3);
+    transform: translate3d(0, -20px, 0);
+    @include opacity(0);
+    transition: opacity $time, transform $time;
+
+    &.animate {
+    	@include opacity(1);
+    	transform: translate3d(0, 0, 0);
+    }
+}

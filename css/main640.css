@@ -1,0 +1,90 @@
+@media only screen and (max-width: 767px) and (min-width: 640px){
+	
+	.service {
+		width: 49%;
+	}
+
+	.fotoresult__block {
+		display: none;
+	}
+
+	.director__block {
+		background-size: contain;
+		background-position: 0px 55px;
+		margin-top: 40px;
+	}
+
+	.director__name {
+		padding-left: 0px;
+		margin-bottom: 5px;
+	}
+
+	.director__position {
+		padding-left: 0px;
+	}
+
+	.director__list ul {
+		padding-left: 25px;
+		margin-top: 95%;
+		margin-bottom: 10px;
+	}
+
+	.nav__wrapper ul li {
+		width: 120px;
+		text-align: left;
+		margin: 2px 20px;
+	}
+
+	.nav__wrapper ul {
+		text-align: center;
+	}
+
+	.director__certificate {
+		padding-left: 5px;
+		margin-top: 10px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.certificate__item {
+		width: 26%;
+	}
+
+	.certificate__item img {
+		max-width: 100%;
+	}
+
+	.make__apointment a {
+		position: relative;
+		margin: 10px auto;
+		right: 0px;
+		bottom: 0px;
+	}
+
+	.make__apointment {
+		text-align: center;
+	}
+	
+	.w50 {
+		width: 100%;
+	}
+
+	.w50 > img {
+		max-width: 100%;
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.w50 > img.ico {
+		margin-left: 20%;
+		width: auto;
+	}
+
+	.news__item {
+		width: 100%;
+	}
+
+	.news__wrap {
+		padding: 15px;
+	}
+}

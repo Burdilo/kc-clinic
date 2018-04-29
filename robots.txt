@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /*?
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /*?utm_source
+Crawl-delay: 3
+
+User-agent: Yandex
+Disallow: /*?
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /*?utm_source
+Crawl-delay: 3
+Host: kc-clinic.ru
+
+User-agent: msnbot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Disallow: /
