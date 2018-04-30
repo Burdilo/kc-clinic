@@ -3,6 +3,7 @@
 	<div class="layout-header__wrapper">
 		<div class="header__logo">
 			<a href="/"><img src="/images/header-logo.png"></a>
+            <p>Модификация на локалке</p>
 		</div>
 		<!--<div class="header__title"></div>-->
 		<div class="header__phone">
