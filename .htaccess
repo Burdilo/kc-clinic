@@ -1,5 +1,4 @@
 
-# Apache Server Configs v2.13.0 | MIT License
 
 # ######################################################################
 # # CROSS-ORIGIN                                                       #
@@ -374,6 +373,11 @@ AddDefaultCharset utf-8
 	RewriteCond %{SCRIPT_FILENAME} -d [OR]
 	RewriteCond %{SCRIPT_FILENAME} -f
 	RewriteRule "(^|/)\." - [F]
+
+	# deny access to the top-level git repository:
+	# RewriteEngine On
+	RewriteRule \.git - [F,L]
+	# Apache Server Configs v2.13.0 | MIT License
 </IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

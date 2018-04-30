@@ -1,0 +1,16 @@
+{"url":"\/uslugi\/butulotoksin-i-disport","files":46,"time":"0.060","memory":"2.286","memory_peak":"3.212"}
+{"url":"\/galereya","files":47,"time":"0.133","memory":"3.730","memory_peak":"4.743"}
+{"url":"\/o-klinike","files":47,"time":"0.169","memory":"3.822","memory_peak":"4.782"}
+{"url":"\/","files":57,"time":"0.205","memory":"4.296","memory_peak":"5.265"}
+{"url":"\/","files":42,"time":"0.046","memory":"2.187","memory_peak":"3.109"}
+{"url":"\/ajax-loader.gif","files":39,"time":"0.047","memory":"2.270","memory_peak":"3.254"}
+{"url":"\/","files":42,"time":"0.073","memory":"3.343","memory_peak":"4.263"}
+{"url":"\/ajax-loader.gif","files":39,"time":"0.044","memory":"2.277","memory_peak":"3.244"}
+{"url":"\/","files":42,"time":"0.069","memory":"2.188","memory_peak":"3.110"}
+{"url":"\/search","files":39,"time":"0.041","memory":"2.231","memory_peak":"3.217"}
+{"url":"\/","files":42,"time":"0.066","memory":"3.307","memory_peak":"4.227"}
+{"url":"\/uslugi\/lipomodelirovanie-lica","files":46,"time":"0.101","memory":"3.484","memory_peak":"4.392"}
+{"url":"\/","files":57,"time":"0.177","memory":"3.025","memory_peak":"4.739"}
+{"url":"\/","files":42,"time":"0.021","memory":"1.036","memory_peak":"2.704"}
+{"url":"\/kontakty","files":45,"time":"0.026","memory":"1.004","memory_peak":"2.604"}
+{"url":"\/uslugi\/lipomodelirovanie-lica","files":46,"time":"0.098","memory":"3.485","memory_peak":"4.392"}
