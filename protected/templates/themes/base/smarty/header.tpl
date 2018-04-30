@@ -2,9 +2,7 @@
 <header class="layout-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" id="header">
 	<div class="layout-header__wrapper">
 		<div class="header__logo">
-			<a href="/"><img src="/images/header-logo.png"></a>
-            <p>Модификация на локалке</p>
-            <p>Модификация на сервере</p>
+			<a href="/"><img src="/images/header-logo.png"></a>            
 		</div>
 		<!--<div class="header__title"></div>-->
 		<div class="header__phone">
